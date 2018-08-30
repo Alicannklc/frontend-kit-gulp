@@ -1,22 +1,21 @@
 {
-  "name": "Frontend-Kit-Bootstrap",
+  "name": "Frontend-Kit-Bulma",
   "version": "1.1",
-  "description": "Frontend Kit Bootstrap",
+  "description": "Frontend Kit Bulma",
   "repository": "https://github.com/Alicannklc/frontend-kit-gulp.git",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "bootstrap",
+    "Bulma",
     "themes"
   ],
   "author": "Alican Kılıç",
   "license": "MIT",
   "dependencies": {
-    "bootstrap": "^4.1.1",
-    "jquery": "^3.3.1",
-    "popper.js": "^1.14.3"
+    "bulma": "^0.7.1",
+    "jquery": "^3.3.1"
   },
   "devDependencies": {
     "autoprefixer": "^8.2.0",

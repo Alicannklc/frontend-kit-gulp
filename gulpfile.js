@@ -6,7 +6,7 @@ var gulp  = require('gulp'),
   postcss      = require('gulp-postcss'),
   autoprefixer = require('autoprefixer');
 
-gulp.task('frontend-kit-bootstrap', function() {
+gulp.task('frontend-kit-bulma', function() {
   return gulp.src(['scss/*.scss'])
     .pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError))
@@ -28,13 +28,13 @@ gulp.task('frontend-kit-bootstrap', function() {
 });
 
 gulp.task('js', function() {
-  return gulp.src(['node_modules/jquery/dist/jquery.slim.min.js','node_modules/popper.js/dist/popper.min.js', 'node_modules/bootstrap/dist/js/bootstrap.min.js', './js/*.js']).pipe(gulp.dest('./js'))
+  return gulp.src(['node_modules/jquery/dist/jquery.min.js', './js/*.js']).pipe(gulp.dest('./js'))
 });
 
-gulp.task('watch', ['frontend-kit-bootstrap'], function() {
+gulp.task('watch', ['frontend-kit-bulma'], function() {
   gulp.watch('./js/*.js', ['js']);
-  gulp.watch(['scss/*.scss'], ['frontend-kit-bootstrap']);
+  gulp.watch(['scss/*.scss'], ['frontend-kit-bulma']);
 });
 
-gulp.task('default', ['frontend-kit-bootstrap', 'js'], function() {
+gulp.task('default', ['frontend-kit-bulma', 'js'], function() {
 });
