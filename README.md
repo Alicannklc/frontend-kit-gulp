@@ -1,4 +1,17 @@
 
+## Prerequisites
+- You can get Node at [nodejs.org](https://nodejs.org), then install gulp using `npm install gulp-cli -g`
+
+## Getting started
+2. Clone this repo
+3. Run `npm install`
+4. Run `gulp watch`
+5. Look at `index.html` 
+6. Add any custom styles into `scss/main.scss`. 
+
+
+
+
 # Frontend Kit Gulp
 
 Bootstrap
@@ -25,3 +38,6 @@ Milligram
 [milligram](https://github.com/Alicannklc/frontend-kit-gulp/releases/tag/Frontend-Kit-milligram)
 Milligram css Document
 [Milligram Document](https://milligram.io/#getting-started)
+
+
+Happy Coding
