@@ -1,3 +1,8 @@
+Donations
+----------
+Donations are **greatly appreciated!**
+
+**[BUY ME A COFFEE](https://www.patreon.com/join/alicannklc)**
 
 ## Prerequisites
 - You can get Node at [nodejs.org](https://nodejs.org), then install gulp using `npm install gulp-cli -g`
